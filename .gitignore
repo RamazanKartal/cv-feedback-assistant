@@ -6,6 +6,11 @@ __pycache__/
 # Environment Variables
 .env
 .env.*
+!.env.example
+
+# Database
+*.db
+user_tracking.db
 
 # Distribution / packaging
 dist/
@@ -18,9 +23,11 @@ build/
 .vscode/
 *.swp
 *.swo
+*.claude
 
 # Operating System
 .DS_Store
 Thumbs.db
 
-
+# Development notes
+knowledge-base.md

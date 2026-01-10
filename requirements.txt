@@ -1,5 +1,19 @@
-streamlit
-langchain
-langchain-openai
-python-dotenv
-pandas
+# Core
+streamlit>=1.29.0
+python-dotenv>=1.0.0
+markdown>=3.5.0
+
+# LangChain and LLM Providers
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-openai>=1.0.0
+langchain-google-genai>=4.0.0
+langchain-anthropic>=1.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+pdfplumber>=0.10.0
+
+# PDF Generation
+reportlab>=4.0.0
